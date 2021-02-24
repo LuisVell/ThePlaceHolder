@@ -1,0 +1,8 @@
+body{
+    color: blanchedalmond;
+    background-color: black;
+}
+
+body ul li{
+    display: block;
+}
