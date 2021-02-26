@@ -1,8 +1,22 @@
 body{
+    margin:0%;
+    margin-top: 0%;
     color: blanchedalmond;
     background-color: black;
 }
+ul{
+    margin-top: 0%;
+    background-color: rgb(220, 221, 221);
+}
+#main iframe {
+    style="border:none;"
+}
 
-body ul li{
-    display: block;
+footer{
+    background-color: white;
+    color:black;
+    padding: 0.5%;
+}
+footer p{
+    text-align: center;
 }
