@@ -4,19 +4,17 @@ body{
     color: blanchedalmond;
     background-color: black;
 }
-ul{
-    margin-top: 0%;
-    background-color: rgb(220, 221, 221);
+header{
+    margin-top: -1%;
+    background-color: white;
+    color: black;
 }
-#main iframe {
-    style="border:none;"
+div .post{
+    border-bottom: solid white 1px;
 }
-
 footer{
     background-color: white;
     color:black;
     padding: 0.5%;
-}
-footer p{
     text-align: center;
 }
