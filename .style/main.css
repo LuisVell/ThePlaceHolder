@@ -9,12 +9,20 @@ header{
     background-color: white;
     color: black;
 }
-div .post{
-    border-bottom: solid white 1px;
+div.post{
+    border-bottom: solid white 2px;
+    margin: 50px;
+}
+div#posts{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
 }
 footer{
     background-color: white;
     color:black;
+    font-family: sans-serif;
+    font-weight: bolder;
     padding: 0.5%;
     text-align: center;
 }
