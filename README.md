@@ -6,3 +6,6 @@
     Adicionado novas pastas para melhor organização
     novas paginas
     novo conteudo em Index
+07042021
+    Recomeço em React
+    utilizando Styled-components
