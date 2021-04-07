@@ -9,3 +9,6 @@
 07042021
     Recomeço em React
     utilizando Styled-components
+    Adicionada FAKE API para posts
+TODO
+    estilizar post com grid OR flex
