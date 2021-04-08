@@ -1,4 +1,4 @@
-import { MainHeader, UlHeader } from '../styles/headerStyle'
+import MainHeader from '../styles/headerStyle'
 
 function Header(pgName) {
     return(
@@ -8,10 +8,10 @@ function Header(pgName) {
                     <h1>The Place Holder</h1>
                     <h3>{pgName}</h3>
                 </div>
-                <UlHeader>
+                <ul>
                     <li><a href='/'>Home</a></li>
                     <li><a href='https://example.com'>Pagina EXMP</a></li>
-                </UlHeader>
+                </ul>
             </MainHeader>
         </div>
     )

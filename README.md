@@ -10,5 +10,6 @@
     Recomeço em React
     utilizando Styled-components
     Adicionada FAKE API para posts
-TODO
+08042021
     estilizar post com grid OR flex
+    adicionado o footer
