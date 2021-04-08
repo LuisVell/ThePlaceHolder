@@ -11,8 +11,8 @@ const PostDiv= styled.div`
         max-height: 300px;
         max-width: 300px;
         h2{
+            a{text-decoration:none;color: blue;}
             background-color:yellow;
-            color: blue;
         }
         p{
             text-align:justify;
