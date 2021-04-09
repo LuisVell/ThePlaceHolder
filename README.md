@@ -14,4 +14,6 @@
     estilizar post com grid OR flex
     adicionado o footer
     Route para pagina de posts avulsos
-TODO: Por um post por pagina baseado no link
+09042021
+    Por um post por pagina baseado no link
+TODO: SINCRONIZAR O CODIGO

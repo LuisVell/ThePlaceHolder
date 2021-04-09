@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/post'>
+        <Route path='/post/:id'>
           <PostPage />
         </Route>
         <Route path='/'>
