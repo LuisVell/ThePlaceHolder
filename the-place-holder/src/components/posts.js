@@ -1,12 +1,12 @@
-import post from '../services/post'
+import Posts from '../services/post'
 import PostDiv from '../styles/postsStyle'
 
 const PostsRender=()=>{
-    const allPosts=post()
+    const allPosts=Posts()
     return(
         <div>
-           <h1>Postagens recentes</h1>
-           <PostDiv>
+            <h1>Postagens recentes</h1>
+           <PostDiv>  
                 {allPosts.map((com)=>{
                     return(
                         <div key={com.id}>

@@ -2,18 +2,17 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 
 
-const Post=()=>{
+const Posts=()=>{
     const [posts, setPosts]=useState([])
 
     useEffect(()=>{
-        const getPost = async ()=>{
-            const {data:posts} = await axios.get('http://jsonplaceholder.typicode.com/posts')
+        const getPosts = async ()=>{
+            const {data:posts} = await axios.get('http://jsonplaceholder.typicode.com/posts/')
             setPosts(posts)
-            console.log("executado")
         }
-        getPost();
+        getPosts();
     },[])
     return posts
 }
 
-export default Post;
+export default Posts;

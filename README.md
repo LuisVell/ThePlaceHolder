@@ -14,6 +14,10 @@
     estilizar post com grid OR flex
     adicionado o footer
     Route para pagina de posts avulsos
-09042021
+20042020
+    mudaddo a estilização pra ficar descente e ao menos não ter jogado 2hr's em vão 
+
+
+APRENDER A FAZER ESSA MERDA:
     Por um post por pagina baseado no link
-TODO: SINCRONIZAR O CODIGO
+    SINCRONIZANDO A CARALHA DO CODIGO
