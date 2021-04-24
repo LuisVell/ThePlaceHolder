@@ -1,19 +1,23 @@
-
+import Posts from '../services/post'
 
 const PostAlone=(param)=>{
-    let {id}=param
-    console.log(id)
-
-    //const post=Post(id);
-    //console.log(post[id]);
-
-    let title ="null";//Post[id].title
-    let body ="null";//Post[id].body
-
+    let id = param.id;
+    const allPosts=Posts()
+    
     return(
         <div>
-            <h1>{title}</h1>
-            <p>{body}</p>
+                {allPosts.map((com)=>{
+                    if(com.id==id){
+                        return(
+                            <div>
+                                    <h2>{com.title}</h2>
+                                    <p>{com.body}</p> 
+                            </div>
+                        )
+                    }else{
+                        return(null)
+                    }
+                })}
         </div>
     )
 }

@@ -15,9 +15,10 @@
     adicionado o footer
     Route para pagina de posts avulsos
 20042020
-    mudaddo a estilização pra ficar descente e ao menos não ter jogado 2hr's em vão 
+    mudaddo a estilização pra ficar descente e ao menos não ter jogado 2hr's em vão
+24042021
+    Um post por pagina implementado precariamente utilizando o mesmo metodo da pagina em conjunto
 
+TODO:
+    implementar no services..post uma maneira de retornar apenas um post?
 
-APRENDER A FAZER ESSA MERDA:
-    Por um post por pagina baseado no link
-    SINCRONIZANDO A CARALHA DO CODIGO

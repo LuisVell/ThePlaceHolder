@@ -11,12 +11,13 @@ const PostDiv= styled.div`
         margin: 5px;
         max-height: 300px;
         max-width: 300px;
+        a{text-decoration:none;color: blue;}
         h2{
-            a{text-decoration:none;color: blue;}
             text-align:justify;
             margin:20px;
         }
         p{
+            color:black;
             margin:20px;
             text-align:justify;
         }

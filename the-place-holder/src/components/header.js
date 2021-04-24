@@ -10,7 +10,7 @@ function Header(pgName) {
                 </div>
                 <ul>
                     <li><a href='/'>Home</a></li>
-                    <li><a href='https://example.com'>Pagina EXMP</a></li>
+                    <li><a href='/game'>Game</a></li>
                 </ul>
             </MainHeader>
         </div>

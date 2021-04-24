@@ -10,8 +10,10 @@ const PostsRender=()=>{
                 {allPosts.map((com)=>{
                     return(
                         <div key={com.id}>
-                            <h2><a href={'/post/'+com.id}>{com.title}</a></h2>
-                            <p>{com.body}</p> 
+                            <a href={'/post/'+com.id}>
+                                <h2>{com.title}</h2>
+                                <p>{com.body}</p> 
+                            </a>
                         </div>
                     )
                 })}
