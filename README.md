@@ -15,10 +15,13 @@
     adicionado o footer
     Route para pagina de posts avulsos
 20042020
-    mudaddo a estilização pra ficar descente e ao menos não ter jogado 2hr's em vão
+    mudado a estilização
 24042021
-    Um post por pagina implementado precariamente utilizando o mesmo metodo da pagina em conjunto
+    OUTDATED:Um post por pagina implementado precariamente utilizando o mesmo metodo da pagina em conjunto(.map porém com IF)
+    Um post por pagina implementado corretamente com o uso de uma propriedade exclusiva
+    imagem aleatoria em cada postagem individual utilizando uma função
 
 TODO:
-    implementar no services..post uma maneira de retornar apenas um post?
+    estilização da imagem
+
 

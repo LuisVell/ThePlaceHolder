@@ -15,4 +15,17 @@ const Posts=()=>{
     return posts
 }
 
-export default Posts;
+const Post=(id)=>{
+    const [post, setPost]=useState({})
+    useEffect(()=>{
+        const getPost = async (id)=>{
+            const {data:post} = await axios.get('http://jsonplaceholder.typicode.com/posts/'+id)
+            setPost(post)
+        }
+        getPost(id);
+    },[])
+    return post
+}
+
+
+export {Posts, Post};

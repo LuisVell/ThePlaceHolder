@@ -1,4 +1,4 @@
-import Posts from '../services/post'
+import {Posts} from '../services/post'
 import PostDiv from '../styles/postsStyle'
 
 const PostsRender=()=>{

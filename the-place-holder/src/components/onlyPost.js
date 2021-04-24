@@ -1,23 +1,15 @@
-import Posts from '../services/post'
+import {Posts, Post} from '../services/post'
+import Image from '../services/images'
 
 const PostAlone=(param)=>{
-    let id = param.id;
-    const allPosts=Posts()
+    let id = parseInt(param.id);
+    const post = Post(id)
     
     return(
         <div>
-                {allPosts.map((com)=>{
-                    if(com.id==id){
-                        return(
-                            <div>
-                                    <h2>{com.title}</h2>
-                                    <p>{com.body}</p> 
-                            </div>
-                        )
-                    }else{
-                        return(null)
-                    }
-                })}
+            <h2>{post.title}</h2>
+            <p>{post.body}</p>
+           {Image(500,500)}
         </div>
     )
 }
