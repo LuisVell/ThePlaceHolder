@@ -23,7 +23,7 @@ adicionado o footer
 Route para pagina de posts avulsos
 #### 20042020
 mudado a estilização
-##### 324042021
+##### 24042021
 ~~OUTDATED:Um post por pagina implementado precariamente utilizando o mesmo método da pagina em conjunto(.map porém com IF)~~
 
 Um post por pagina implementado corretamente com o uso de uma propriedade exclusiva
