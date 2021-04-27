@@ -27,6 +27,5 @@
     Branch Post-Alone enviada para a Main;
 
 # TODO:
-
-    - [ ] implementação de um menu lateral em todas as paginas;
-    - [ ] menu principal no router '/' e a passagem atual do home para '/home';
+- [ ] implementação de um menu lateral em todas as paginas;
+- [ ] menu principal no router '/' e a passagem atual do home para '/home';
