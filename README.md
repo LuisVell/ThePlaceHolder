@@ -20,8 +20,14 @@
     OUTDATED:Um post por pagina implementado precariamente utilizando o mesmo metodo da pagina em conjunto(.map porém com IF)
     Um post por pagina implementado corretamente com o uso de uma propriedade exclusiva
     imagem aleatoria em cada postagem individual utilizando uma função
+27042021
+    post.body agora contem mais texto para melhor "fingimento"
+    serviço de imagem agr recebe um parametro de porcentagem para o tamanho de tela
+    imagem estilizada
+    Branch Post-Alone enviada para a Main
 
 TODO:
-    estilização da imagem
+    implementação de um menu lateral em todas as paginas
+    menu principal no router '/' e a passagem atual do home para '/home'
 
 

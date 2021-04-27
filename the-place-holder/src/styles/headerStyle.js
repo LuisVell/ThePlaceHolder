@@ -8,6 +8,10 @@ const MainHeader = styled.header`
     padding: 0px 50px 0px 50px;
     flex-wrap: wrap;
     border-bottom: 1px solid black;
+    a{
+        color:black;
+        text-decoration:none;
+    }
     div{
         display:flex;
         flex-wrap:nowrap

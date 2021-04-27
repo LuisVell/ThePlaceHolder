@@ -5,7 +5,7 @@ function Header(pgName) {
         <div>
             <MainHeader>
                 <div>
-                    <h1>The Place Holder</h1>
+                    <a href='/'><h1>The Place Holder</h1></a>
                     <h3>{pgName}</h3>
                 </div>
                 <ul>
