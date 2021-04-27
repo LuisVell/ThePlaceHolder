@@ -41,5 +41,5 @@ Branch Post-Alone enviada para a Main
 README foi atualizada para ser legivel..
 
 # TODO:
-- [ ] implementação de um menu lateral em todas as paginas
+- [ ] implementação de um menu lateral em todas as paginas(exceto '/')
 - [ ] menu principal no router '/' e a passagem atual do home para '/home'
