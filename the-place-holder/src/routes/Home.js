@@ -1,8 +1,8 @@
-import Header from '../components/Header.js'
+import Header from '../components/header.js'
 import Footer from '../components/Footer.js'
 import PostsRender from '../components/posts'
 
-function Home() {
+const Home = ()=> {
     return (
       <div>
         {Header('Home')}

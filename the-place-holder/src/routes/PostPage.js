@@ -1,4 +1,4 @@
-import Header from '../components/Header.js'
+import Header from '../components/header.js'
 import Footer from '../components/Footer.js'
 import PostAlone from '../components/onlyPost.js'
 import { useParams } from 'react-router'
