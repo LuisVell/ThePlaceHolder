@@ -1,8 +1,8 @@
 # TreinoFrontBackEnd
-> #### 23022021
->>Criação do arquivo
+#### 23022021
+Criação do arquivo
 
->>Feito o Primeiro Upload
+Feito o Primeiro Upload
 #### 24022021
 Adicionado novas pastas para melhor organização
 
@@ -49,4 +49,3 @@ Menu principal no router '/' implementado
 - [ ] Implementação do Game
 - [ ] Search button na pagina de Post's
 > - [ ] Instalação da 'Material-UI'
-- [ ] Melhoria no README
