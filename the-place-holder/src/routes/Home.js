@@ -4,7 +4,7 @@ import PostsRender from '../components/posts'
 import menuLateral from '../components/menulateral'
 import GridLayout from '../styles/grid'
 
-function Home() {
+const Home = ()=> {
     return (
       <GridLayout>
         {Header('Home')}

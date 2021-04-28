@@ -42,6 +42,8 @@ README foi atualizada para ser legivel..
 ##### 28042021
 Menu lateral e Grid implementados
 
+Menu principal no router '/' implementado
+
 # TODO:
 - [x] implementação de um menu lateral em todas as paginas(exceto '/')
-- [ ] menu principal no router '/' e a passagem atual do home para '/home'
+- [x] menu principal no router '/' e a passagem atual do home para '/home'

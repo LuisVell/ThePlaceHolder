@@ -1,4 +1,4 @@
-import {Posts, Post} from '../services/post'
+import {Post} from '../services/post'
 import Image from '../services/images'
 import PostStyle from '../styles/onlypostStyle'
 
