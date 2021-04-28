@@ -1,13 +1,16 @@
-import Header from '../components/Header.js'
+import Header from '../components/header.js'
 import Footer from '../components/Footer.js'
+import menuLateral from '../components/menulateral.js'
+import GridLayout from '../styles/grid'
 
 const GamePage = ()=>{
     return(
-        <div>
-            {Header('Game')}
-            <h1>Ops! Parece que ainda não tem nada aqui :( <br/> Foi Mal</h1>
+        <GridLayout>
+            {Header('Game')}       
+            <div class="util"><h1>Ops! Parece que ainda não tem nada aqui :( <br/> Foi Mal</h1></div>
+            {menuLateral()}
             {Footer('')}
-        </div>
+        </GridLayout>
     )
 }
 

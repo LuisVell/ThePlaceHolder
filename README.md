@@ -39,7 +39,11 @@ imagem estilizada
 Branch Post-Alone enviada para a Main
 
 README foi atualizada para ser legivel..
+##### 28042021
+Menu lateral e Grid implementados
+
+Menu principal no router '/' implementado
 
 # TODO:
-- [ ] implementação de um menu lateral em todas as paginas(exceto '/')
-- [ ] menu principal no router '/' e a passagem atual do home para '/home'
+- [x] implementação de um menu lateral em todas as paginas(exceto '/')
+- [x] menu principal no router '/' e a passagem atual do home para '/home'
