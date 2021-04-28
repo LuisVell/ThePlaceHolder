@@ -2,7 +2,6 @@ import MainHeader from '../styles/headerStyle'
 
 function Header(pgName) {
     return(
-        <div>
             <MainHeader>
                 <div>
                     <a href='/'><h1>The Place Holder</h1></a>
@@ -13,7 +12,6 @@ function Header(pgName) {
                     <li><a href='/game'>Game</a></li>
                 </ul>
             </MainHeader>
-        </div>
     )
 }
 export default Header;

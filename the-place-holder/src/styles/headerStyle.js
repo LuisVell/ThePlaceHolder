@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 const MainHeader = styled.header`
+    grid-area: heder;
+
     font-size: 30px;
     display: flex;
     align-items: baseline;
