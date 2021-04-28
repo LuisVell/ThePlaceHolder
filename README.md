@@ -45,5 +45,6 @@ Menu lateral e Grid implementados
 Menu principal no router '/' implementado
 
 # TODO:
-- [x] implementação de um menu lateral em todas as paginas(exceto '/')
-- [x] menu principal no router '/' e a passagem atual do home para '/home'
+- [ ] Melhoria de Design
+- [ ] Implementação do Game
+- [ ] Melhoria no README
