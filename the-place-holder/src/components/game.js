@@ -1,11 +1,17 @@
-import{useState, useRef, useEffect} from 'react'
+import{useState} from 'react'
+
+import paper from '../imgs/paper.jpg'
+import rock from '../imgs/rock.png'
+import scissor from '../imgs/scissor.png'
+
+import Gamestyle from '../styles/gameStyle.js'
 
 let P=0;
 let W=0;
 let L=0;
 let D=0;
 
-const TTT=()=>{
+const PRS=()=>{
     const[status, setStatus]=useState()
     const[PlayerMove, setPM]=useState(null)
     const[Contador, setCont]=useState('Ganhou: 0  Empatou: 0  Perdeu:0')
@@ -38,20 +44,22 @@ const TTT=()=>{
     //fim do jogo
 
     return(
-        <div>
-            <img src='' onClick={()=>{P=1;setPM('Pedra')}}></img>
-
-            <button onClick={()=>{P=1;setPM('Pedra')}}>Pedra</button>
-            <button onClick={()=>{P=2;setPM('Papel')}}>Papel</button>
-            <button onClick={()=>{P=3;setPM('Tesoura')}}>Tesoura</button>
+        <Gamestyle>
+            <div>
+                <img src={rock} onClick={()=>{P=1;setPM('Pedra')}} alt="Pedra" width='20%'></img>
+                <img src={paper} onClick={()=>{P=2;setPM('Papel')}} alt="Papel" width='20%'></img>
+                <img src={scissor} onClick={()=>{P=3;setPM('Tesoura')}} alt="Tesoura" width='20%'></img>
+            </div>
             <button onClick={inTTT}>Jogar</button><br/>
-            {PlayerMove==null?null:'Sua jogada: '+PlayerMove}
-            <br/>
-            {status}
-            <br/>
-            {Contador}
-        </div>
+            <div id='reference'>
+                <h3>{PlayerMove==null?null:'Sua jogada: '+PlayerMove}</h3>
+                <br/>
+                <h2>{status}</h2>
+                <br/>
+                <h2>{Contador}</h2>
+            </div>
+        </Gamestyle>
     )
 }
 
-export default TTT
+export default PRS
