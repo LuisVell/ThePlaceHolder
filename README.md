@@ -43,11 +43,9 @@ README foi atualizada para ser legivel..
 Menu lateral e Grid implementados
 
 Menu principal no router '/' implementado
+##### 06052021
+Jogo Implementado e estilizado
+Botão de pesquisa de Posts com estilização nativa
 
 # TODO:
 - [ ] Melhoria de Design Geral
-- [x] Implementação do Game (pedra, papel, tesoura)
-> - [x] Estilização do jogo
-- [ ] Search button na pagina de Post's
-> - [ ] ~~Instalação da 'Material-UI'~~
-> - [ ] Estilização por CSS Nativo
