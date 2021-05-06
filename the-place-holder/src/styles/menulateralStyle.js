@@ -10,9 +10,15 @@ const MenulateralStyle=styled.div`
     }
     ul{
         list-style:none;
+        a{
+            text-decoration:none;
+        }
         h5{
             color:white;
             background-color:black;
+        }
+        p{
+            color:black;
         }
     }
 `

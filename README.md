@@ -49,4 +49,5 @@ Menu principal no router '/' implementado
 - [x] Implementação do Game (pedra, papel, tesoura)
 > - [x] Estilização do jogo
 - [ ] Search button na pagina de Post's
-> - [ ] Instalação da 'Material-UI'
+> ~~ - [ ] Instalação da 'Material-UI'~~
+> - [ ] Estilização por CSS Nativo
