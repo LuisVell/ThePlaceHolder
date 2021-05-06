@@ -45,7 +45,9 @@ Menu lateral e Grid implementados
 Menu principal no router '/' implementado
 
 # TODO:
-- [ ] Melhoria de Design
-- [ ] Implementação do Game (pedra, papel, tesoura)
+- [ ] Melhoria de Design Geral
+- [x] Implementação do Game (pedra, papel, tesoura)
+> - [x] Estilização do jogo
 - [ ] Search button na pagina de Post's
-> - [ ] Instalação da 'Material-UI'
+> ~~ - [ ] Instalação da 'Material-UI'~~
+> - [ ] Estilização por CSS Nativo
