@@ -1,60 +1,32 @@
 <h1 align='center'>The Place Holder</h1>
-
-#### 23022021
-Criação do arquivo
-
-Feito o Primeiro Upload
-#### 24022021
-Adicionado novas pastas para melhor organização
-
-novas paginas
-
-novo conteudo em Index
-#### 07042021
-Recomeço em React
-
-utilizando Styled-components
-
-Adicionada FAKE API para posts
-#### 08042021
-estilizar post com grid OR flex
-
-adicionado o footer
-
-Route para pagina de posts avulsos
-#### 20042020
-mudado a estilização
-##### 24042021
-~~OUTDATED:Um post por pagina implementado precariamente utilizando o mesmo método da pagina em conjunto(.map porém com IF)~~
-
-Um post por pagina implementado corretamente com o uso de uma propriedade exclusiva
-
-imagem aleatoria em cada postagem individual utilizando uma função
-#### 27042021
-post.body agora contem mais texto para melhor "fingimento"
-
-serviço de imagem agr recebe um parametro de porcentagem para o tamanho de tela
-
-imagem estilizada
-
-Branch Post-Alone enviada para a Main
-
-README foi atualizada para ser legivel..
-##### 28042021
-Menu lateral e Grid implementados
-
-Menu principal no router '/' implementado
-##### 06052021
-Jogo Implementado e estilizado
-
-Botão de pesquisa de Posts com estilização nativa
-
-Implementação de paginas na route Home
-
-Fixado erro menores de avisos por parte do react ~~alguns ainda aparecem no console...~~
-
-##### 07052021
-Melhoria de design e de pequenas funções
-
-## TODO:
-- [ ] melhorar o arquivo README
+<h2>Menu principal:</h2>
+<img src='https://raw.githubusercontent.com/LuisVell/ThePlaceHolder/main/assets/1.jpeg'></img>
+<h2>Home:</h2>
+<img src='https://raw.githubusercontent.com/LuisVell/ThePlaceHolder/main/assets/2.jpeg'></img>
+<h2>Post Individual:</h2>
+<img src='https://raw.githubusercontent.com/LuisVell/ThePlaceHolder/main/assets/3.jpeg'></img>
+<h2>Game:</h2>
+<img src='https://raw.githubusercontent.com/LuisVell/ThePlaceHolder/main/assets/4.jpeg'></img>
+<h1></h1>
+<ul>
+<h2>Utilizado:</h2>
+<li>Create-React-App</li>
+<li>Axios</li>
+<li>Styled-Components</li>
+</ul>
+<h1></h1>
+<h2 align='center'>Log:</h2>
+<ul>
+<li>
+<h2>23/02/2021</h2><p>Criação do arquivo</br>Feito o Primeiro Upload</p></li>
+<li><h2>24/02/2021</h2><p>Adicionado novas pastas para melhor organização</br>Novas paginas</br>Novo conteudo em Index</p></li>
+<li><h2>07/04/2021</h2><p>Recomeço em React utilizando Styled-components</br>Adicionada FAKE API para posts</p></li>
+<li><h2>08/04/2021</h2><p>Estilizado post com grid e flex</br>Adicionado o footer</br>Route para pagina de posts avulsos</p></li>
+<li><h2>20/04/2020</h2><p>Mudado a estilização</p></li>
+<li><h2>24/04/2021</h2><p><s>OUTDATED:Um post por pagina implementado precariamente utilizando o mesmo método da pagina em conjunto(.map porém com IF)</s> </br>Um post por pagina implementado corretamente com o uso de uma propriedade exclusiva imagem aleatoria em cada postagem individual utilizando uma função</p></li>
+<li><h2>27/04/2021</h2><p>post.body agora contem mais texto para melhor "fingimento"</br>Serviço de imagem agora recebe um parametro de porcentagem para o tamanho de tela</br>Imagem estilizada</br>Branch Post-Alone enviada para a Main</br>README foi atualizada para ser legivel..</p></li>
+<li><h2>28/04/2021</h2><p>Menu lateral e Grid implementados</br>Menu principal no router '/' implementado</p></li>
+<li><h2>06/05/2021</h2><p>Jogo Implementado e estilizado Botão de pesquisa de Posts com estilização nativa</br>Implementação de paginas na route Home</br>Fixado erro menores de avisos por parte do react</br><s>alguns ainda aparecem no console...</s></p></li>
+<li><h2>07/05/2021</h2><p>Melhoria de design e de pequenas funções</p></li>
+<li><h2>TODO:</h2><p>[X] melhorar o arquivo README</p></li>
+</ul>
