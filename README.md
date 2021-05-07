@@ -45,7 +45,10 @@ Menu lateral e Grid implementados
 Menu principal no router '/' implementado
 ##### 06052021
 Jogo Implementado e estilizado
+
 Botão de pesquisa de Posts com estilização nativa
+
+Implementação de paginas
 
 # TODO:
 - [ ] Melhoria de Design Geral

@@ -1,14 +1,37 @@
 import { useEffect, useState } from 'react'
 import {Post, Posts} from '../services/post'
-import {PostDiv, PostHDiv} from '../styles/postsStyle'
+import {PostDiv, PostHDiv, MenuPosts} from '../styles/postsStyle'
+
+let max=10;
+let min=0;
 
 const PostsRender=()=>{
     const [srcText, setSrc]=useState('');
     const [posts, setposts]=useState([{title:'', body:''}])
     const originalposts= Posts()
 
+    const Next=()=>{
+        max+=10
+        min+=10
+        if(max>originalposts.length){
+            max=originalposts.length
+            min=originalposts.length-10
+        }
+        setposts(originalposts.slice(min,max))
+    }
+
+    const Back=()=>{
+        max-=10
+        min-=10
+        if(min<0){
+            max=10
+            min=0
+        }
+        setposts(originalposts.slice(min,max))
+    }
+
     //Define posts após a atualização de originalposts
-    useEffect(()=>{setposts(originalposts)},[originalposts])
+    useEffect(()=>{setposts(originalposts.slice(0,max))},[originalposts])
    
     //Buscador
     const Search = (event) =>{
@@ -47,6 +70,9 @@ const PostsRender=()=>{
                     )
                 })}
             </PostDiv>
+            <MenuPosts>
+            <button onClick={Back}>Anterios</button><h5>Pagina: {max/10}</h5><button onClick={Next}>Proxima</button>
+            </MenuPosts>
         </div>
     )
 }

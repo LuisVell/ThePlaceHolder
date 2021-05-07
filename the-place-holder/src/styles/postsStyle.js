@@ -46,4 +46,17 @@ const PostHDiv=styled.div`
     }
 `
 
-export {PostDiv, PostHDiv}
+const MenuPosts=styled.div`
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    button{
+        background-color: green;
+        border: none;
+        color: white;
+        padding: 6px 15px;
+        font-size: 16px;
+    }
+`
+
+export {PostDiv, PostHDiv, MenuPosts}
