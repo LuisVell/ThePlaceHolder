@@ -21,6 +21,8 @@ const menuLateral = () =>{
                                 </li>
                             </div>
                         )
+                    }else{
+                        return(null)
                     }
                 })}
             </ul>

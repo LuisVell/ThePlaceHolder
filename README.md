@@ -50,5 +50,7 @@ Botão de pesquisa de Posts com estilização nativa
 
 Implementação de paginas
 
+Fixado erro menores de avisos por parte do react ~~alguns ainda aparecem no console...~~
+
 # TODO:
 - [ ] Melhoria de Design Geral

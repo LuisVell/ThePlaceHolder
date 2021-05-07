@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import {Post, Posts} from '../services/post'
+import {Posts} from '../services/post'
 import {PostDiv, PostHDiv, MenuPosts} from '../styles/postsStyle'
 
 let max=10;
@@ -14,8 +14,8 @@ const PostsRender=()=>{
         max+=10
         min+=10
         if(max>originalposts.length){
-            max=originalposts.length
-            min=originalposts.length-10
+            max=originalposts.length===0?10:originalposts.length
+            min=originalposts.length<10?0:originalposts.length-10
         }
         setposts(originalposts.slice(min,max))
     }

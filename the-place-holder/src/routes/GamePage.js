@@ -10,7 +10,7 @@ const GamePage = ()=>{
             {Header('Game')}       
             <div class="util">{PRS()}</div>
             {menuLateral()}
-            {Footer('')}
+            {Footer('Game')}
         </GridLayout>
     )
 }

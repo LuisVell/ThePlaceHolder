@@ -17,10 +17,12 @@ const PRS=()=>{
     const[Contador, setCont]=useState('Ganhou: 0  Empatou: 0  Perdeu:0')
 
     //Logica do JOGO
-    //substituir LOGs por returns
     const inTTT=()=>{
         let E=Math.floor(Math.random()*3)+1
         let S
+        if(P===0){
+            S='...'
+        }
         if(P===E){
             S='Empate'
             D++
@@ -37,6 +39,7 @@ const PRS=()=>{
             case 1:E='Pedra';break;
             case 2:E='Papel';break;
             case 3:E='Tesoura';break;
+            default: E='Why are you here?'
         }
         setCont('Ganhou: '+W+'  Empatou: '+D+'  Perdeu: '+L)
         setStatus(S+', inimigo jogou: '+E)
