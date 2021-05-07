@@ -23,7 +23,7 @@ const Post=(id)=>{
             setPost(post)
         }
         getPost(id);
-    },[])
+    },[id])
     return post
 }
 
