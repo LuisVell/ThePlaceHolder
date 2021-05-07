@@ -13,6 +13,7 @@
 <li>Create-React-App</li>
 <li>Axios</li>
 <li>Styled-Components</li>
+<li><a href='https://picsum.photos/'>Lorem Picsum</a></li>
 </ul>
 <h1></h1>
 <h2 align='center'>Log:</h2>
