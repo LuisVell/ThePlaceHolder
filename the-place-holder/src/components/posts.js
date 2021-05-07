@@ -46,7 +46,7 @@ const PostsRender=()=>{
     //Mudança de texto no input
     const Change = (event)=>{
         setSrc(event.target.value)
-        setposts(originalposts)
+        setposts(originalposts.slice(min,max))
     }
 
     return(
@@ -54,7 +54,7 @@ const PostsRender=()=>{
             <PostHDiv>
                 <h1>Postagens recentes</h1>
                 <form onSubmit={Search}>
-                    <input type='text' value={srcText} onChange={Change}></input>
+                    <input type='text' value={srcText} placeholder='Buscar' onChange={Change}></input>
                     <button type='submit'>Enviar</button>
                 </form>
             </PostHDiv>

@@ -11,9 +11,9 @@ const PostDiv= styled.div`
         margin: 5px;
         max-height: 300px;
         max-width: 300px;
-        a{text-decoration:none;color: blue;}
+        a{text-decoration:none;color: black; }
         h2{
-            text-align:justify;
+            //text-align:justify;
             margin:20px;
         }
         p{
@@ -21,15 +21,18 @@ const PostDiv= styled.div`
             margin:20px;
             text-align:justify;
         }
-    }   
+    } 
+    div:hover{transition:.5s; background-color:black;a{color:white}p{color:white}}  
 `;
 
 const PostHDiv=styled.div`
     display:flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     h1{
-        color:gray;
+        padding: 2px 100px 2px 10px;
+        color:white;
+        background-color:black;
     }
     form{
         input{
@@ -37,7 +40,7 @@ const PostHDiv=styled.div`
             margin-right:5px;
         }
         button{
-            background-color: green;
+            background-color: black;
             border: none;
             color: white;
             padding: 6px 15px;
@@ -51,12 +54,13 @@ const MenuPosts=styled.div`
     justify-content: space-around;
     align-items: baseline;
     button{
-        background-color: green;
+        background-color: gray;
         border: none;
         color: white;
         padding: 6px 15px;
         font-size: 16px;
     }
+    button:hover{background-color:black}
 `
 
 export {PostDiv, PostHDiv, MenuPosts}

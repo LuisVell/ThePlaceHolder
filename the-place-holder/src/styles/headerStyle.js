@@ -13,7 +13,7 @@ const MainHeader = styled.header`
         align-content: space-around;
         list-style-type: none;
         li{
-            padding: 2px;
+            padding: 3px;
             margin: 2px;
             background-color: black;
             display: inline;

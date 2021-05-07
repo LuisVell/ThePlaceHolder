@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 const MenulateralStyle=styled.div`
     grid-area: menu-lateral;
-    background-color:pink;
     border:1px solid black;
+    padding:3px;
     margin:5px;
     h4{
-        background-color:gray;
+        color:white;
+        background-color:black;
     }
     ul{
         list-style:none;

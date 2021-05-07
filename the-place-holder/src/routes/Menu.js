@@ -1,9 +1,9 @@
 import Logo from '../components/logo'
-import MenuStyle from '../styles/menuStyle'
+import MnPrinStyle from '../styles/MnPrinStyle'
 
 const Menu = () =>{
     return(
-        <MenuStyle>
+        <MnPrinStyle>
             <div>
                 {Logo()}
             </div>
@@ -11,7 +11,7 @@ const Menu = () =>{
                 <li><a href='/home'>Home</a></li>
                 <li><a href='/game'>Game</a></li>
             </ul>
-        </MenuStyle>
+        </MnPrinStyle>
     )
 
 }

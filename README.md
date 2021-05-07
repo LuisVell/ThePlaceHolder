@@ -48,9 +48,12 @@ Jogo Implementado e estilizado
 
 Botão de pesquisa de Posts com estilização nativa
 
-Implementação de paginas
+Implementação de paginas na route Home
 
 Fixado erro menores de avisos por parte do react ~~alguns ainda aparecem no console...~~
 
-# TODO:
-- [ ] Melhoria de Design Geral
+##### 07052021
+Melhoria de design e de pequenas funções
+
+## TODO:
+- [ ] melhorar o arquivo README

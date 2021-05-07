@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-const MenuStyle=styled.div`
-margin-top:5%;
+const MnPrinStyle=styled.div`
+margin-top:10%;
 display:flex;
 flex-direction:column;
 justify-content:space-between;
@@ -15,6 +15,7 @@ ul{
     display:flex;
     flex-direction:row;
     justify-content:space-around;
+
     font-size:50px;
     list-style:none;
     li{
@@ -34,4 +35,4 @@ ul{
 
 `
 
-export default MenuStyle
+export default MnPrinStyle
