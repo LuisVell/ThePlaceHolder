@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react'
 import {Post, Posts} from '../services/post'
 import {PostDiv, PostHDiv} from '../styles/postsStyle'
 
-var con=1
-
 const PostsRender=()=>{
     const [srcText, setSrc]=useState('');
     const [posts, setposts]=useState([{title:'', body:''}])
