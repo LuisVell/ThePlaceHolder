@@ -19,8 +19,8 @@
 <h2 align='center'>Log:</h2>
 <ul>
 <li>
-<h2>23/02/2021</h2><p>Criação do arquivo</br>Feito o Primeiro Upload</p></li>
-<li><h2>24/02/2021</h2><p>Adicionado novas pastas para melhor organização</br>Novas paginas</br>Novo conteudo em Index</p></li>
+<h2>23/03/2021</h2><p>Criação do arquivo</br>Feito o Primeiro Upload</p></li>
+<li><h2>24/03/2021</h2><p>Adicionado novas pastas para melhor organização</br>Novas paginas</br>Novo conteudo em Index</p></li>
 <li><h2>07/04/2021</h2><p>Recomeço em React utilizando Styled-components</br>Adicionada FAKE API para posts</p></li>
 <li><h2>08/04/2021</h2><p>Estilizado post com grid e flex</br>Adicionado o footer</br>Route para pagina de posts avulsos</p></li>
 <li><h2>20/04/2020</h2><p>Mudado a estilização</p></li>
