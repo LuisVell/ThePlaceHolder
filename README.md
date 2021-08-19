@@ -10,10 +10,10 @@
 <h1></h1>
 <ul>
 <h2>Utilizado:</h2>
-<li>Create-React-App</li>
-<li>Axios</li>
-<li>Styled-Components</li>
-<li><a href='https://picsum.photos/'>Lorem Picsum</a></li>
+  <li><A href="https://create-react-app.dev/">Create-React-App</a></li>
+  <li><a href="https://axios-http.com/">Axios</a></li>
+  <li><a href="https://styled-components.com/">Styled-Components</a></li>
+  <li><a href='https://picsum.photos/'>Lorem Picsum</a></li>
 </ul>
 <h1></h1>
 <h2 align='center'>Log:</h2>
